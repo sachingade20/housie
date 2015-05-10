@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name>housie</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>HousieController</display-name>
+    <servlet-name>HousieController</servlet-name>
+    <servlet-class>com.housie.controller.HousieController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HousieController</servlet-name>
+    <url-pattern>/HousieController</url-pattern>
+  </servlet-mapping>
+</web-app>
